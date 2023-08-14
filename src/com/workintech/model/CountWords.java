@@ -29,8 +29,6 @@ public class CountWords {
 
         Arrays.sort(words);
         int count = 0;
-        for(String word: words){
-        }
 
         TreeMap<String, Integer> wordMap = new TreeMap<>();
         String thisWord = "";
